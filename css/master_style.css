@@ -1,0 +1,49 @@
+/*
+ * This CSS stylesheet oversees the broad styling of this website. It controls commonalities such as font, color, background, and more.
+ * 
+ * Additional stylesheets are encapsulated to their specific purposes. These are listed below along with their functions:
+ *
+ * + reset.css - this stylesheet resets the default styling of the client browser. 
+ * + nav.css   -  
+ *
+ */
+
+ /*
+  * Global text styling
+  */
+
+/*
+ * Global background styling
+ */
+ html {
+
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+ 
+}
+
+
+
+
+
+
+
+.banner {
+
+    background-color: black;
+    height: 35vh;
+
+}
+
+#profile {
+
+    background: url("../images/SpaceImage.jpg") no-repeat center/cover;
+    height: 125px;
+    width: 125px;
+    border: #919191 1px solid;
+    position: absolute;
+
+}
+
+.makespace {
+    height: 100000px;
+}
