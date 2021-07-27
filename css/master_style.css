@@ -22,25 +22,84 @@
 }
 
 
+#profile {
 
-
-
-
-
-.banner {
-
-    background-color: black;
-    height: 35vh;
+    background: url("../images/UnchartedNebula.jpg") no-repeat center/cover;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    border: #919191 1px solid;
+    position: absolute;
+    float: left;
+    clear: left;
 
 }
 
-#profile {
+/*
+ *
+ * Global content styling
+ *
+ */
+#content {
 
-    background: url("../images/SpaceImage.jpg") no-repeat center/cover;
-    height: 125px;
-    width: 125px;
-    border: #919191 1px solid;
+    background-color: #3f404d;
+    font-family: "Calisto MT", "Bookman Old Style", "Bookman", "Goudy Old Style", "Garamond", "Hoefler Text", "Bitstream Charter", Georgia, serif;
+    color: #e1e3f5;
+    height: 100%;
+    width: 80%;
+    padding: 50px 20px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.253);
+}
+
+
+
+
+.banner{
+
+    height: 100px;
+    color: #e1e3f5;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 150px;
+    padding-right: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner h2 {
+
+    font-size: medium;
+
+}
+
+.icon {
+
     position: absolute;
+    top: 35%;
+
+}
+
+#left {
+
+    background-color: #3f404d;
+    height: 125px;
+    width: 30px;
+    top: 45%;
+    left: 0;
+    position: fixed;
+
+}
+
+#right {
+
+    background-color: #3f404d;
+    height: 125px;
+    width: 30px;
+    top: 45%;
+    right: 0;
+    position: fixed;
 
 }
 
