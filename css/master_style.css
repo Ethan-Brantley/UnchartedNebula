@@ -17,7 +17,7 @@
  */
  html {
 
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    
  
 }
 
@@ -54,16 +54,60 @@
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.253);
 }
 
+.section-1 {
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.section-2 {
+
+    width: 100%;
+    height: 100vh;
 
 
+}
+
+.section-3 {
+
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+
+
+.profile {
+
+    background: url("../images/UnchartedNebula.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+
+}
+
+.general {
+
+    background: black;
+
+}
+
+.nivalis {
+
+    background: url("../images/Nivalis-Bg.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+
+}
 
 .banner{
 
-    height: 100px;
-    color: #e1e3f5;
+    height: 125px;
+    width: 100vw;
+    background: black;
+    color:  white;
     display: table-cell;
     vertical-align: middle;
-    padding-left: 150px;
+    padding-left: 25px;
     padding-right: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
