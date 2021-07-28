@@ -88,7 +88,7 @@
 .general p {
 
     text-indent: 50px;
-    font-size: 1em;
+    font-size: 2em;
 
 }
 
@@ -154,4 +154,21 @@
 
 .makespace {
     height: 100000px;
+}
+
+/*
+ *
+ * Global Desktop Stylesheet Changes
+ *
+ */
+
+@media only screen and (min-width: 768px) {
+
+    .general p {
+
+        text-indent: 50px;
+        font-size: 1em;
+    
+    }
+
 }
