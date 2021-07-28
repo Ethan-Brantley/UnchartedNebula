@@ -81,7 +81,7 @@
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 75px;
-    overflow-y: scroll;
+    overflow: hidden;
 
 }
 
@@ -112,7 +112,7 @@
 
 .banner h1 {
 
-    font-size: xx-large;
+    font-size: 4em;
     text-align: center;
     margin: 0;
     position: absolute;
