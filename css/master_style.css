@@ -21,20 +21,6 @@
  
 }
 
-
-#profile {
-
-    background: url("../images/UnchartedNebula.jpg") no-repeat center/cover;
-    height: 100px;
-    width: 100px;
-    top: 0;
-    border: #919191 1px solid;
-    position: absolute;
-    float: left;
-    clear: left;
-
-}
-
 /*
  *
  * Global content styling
@@ -52,6 +38,17 @@
     display: block;
     margin-top: 50px;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.253);
+}
+
+.summary {
+
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 .signature {
