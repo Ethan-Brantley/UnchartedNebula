@@ -48,6 +48,7 @@
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 2em;
 
 }
 
@@ -250,6 +251,12 @@
     }
 
     #footer-text {
+
+        font-size: 1em;
+    
+    }
+
+    .summary {
 
         font-size: 1em;
     
