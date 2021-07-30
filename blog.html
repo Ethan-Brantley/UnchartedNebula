@@ -1,25 +1,14 @@
-<!DOCTYPE html>
-
-<html>
-    <head>
-        <meta charset="utf-8">
-        <script src="https://kit.fontawesome.com/7f254a07af.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/reset.css" type="text/css">
-        <link rel="stylesheet" href="css/master_style.css" type="text/css">
-        <title>Blog</title>
-    </head>
-    <body>
-        <h1>Latest Posts</h1>
+---
+layout: default
+title: Blog
+---
+<h1>Latest Posts</h1>
 
 <ul>
-  
+  {% for post in site.posts %}
     <li>
-      <h2><a href="2021/07/29/hello-world.html">Hello World</a></h2>
-      <p>A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
-
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
     </li>
-  
+  {% endfor %}
 </ul>
-    </body>
-</html>
